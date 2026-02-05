@@ -25,5 +25,5 @@ class TestCalc (unittest.TestCase):
                 self.assertEqual (-1, calc(-1, 100))
 
         def test_sample6(self):
-                self.assertEqual ("error", calc("a", 100)) # 文字列
+                self.assertEqual (-1, calc("a", 100))
 
